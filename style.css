@@ -1,0 +1,96 @@
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image:url("Images/backyard.jpg");
+    background-size: contain;
+    padding-bottom: 50px;
+    height: 200px;
+    margin-bottom: 80px;
+}
+
+footer{
+    background-color: beige;
+    padding: 5px 20px 5px 10%;
+}
+
+article{
+    margin: 0px 10% 0px 10%;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#infoBox{
+    border: 1px solid grey;
+    max-width: 30%;
+    padding-left: 15px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+#bio{
+    color: #36454F;
+}
+
+#profession{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#freepikLinkContainer{
+    margin:0;
+    padding:0;
+}
+
+#freepikLink{
+    color:red;
+}
+
+a{
+    font-size: 1.1rem;
+}
+
+
+ol > li{
+    color: darkred;
+}
+
+ul > li{
+    color: darkred;
+}
+
+#profilePhoto{
+    width: 120%; height: 120%; 
+    margin: -90px 0px 0px -20px; 
+}
+
+#profileFrame{
+    width: 175px; height: 175px; 
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 10%;
+    padding: 0px;
+    position: relative;
+    top: 50%;
+    transform: translateY(10%);
+}
+
+#typingPhoto {
+    width:150px; height:200px;
+    display: block;
+    margin:auto;
+    border-radius: 50%;
+}
+
